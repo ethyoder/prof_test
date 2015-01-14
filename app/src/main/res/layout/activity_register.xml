@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Register">
+
+    <TextView
+        android:id="@+id/register"
+        android:text="@string/register_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!-- Email row -->
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/email"
+        android:ems="5"
+        android:gravity="center|start"
+        android:layout_below="@+id/register"
+        />
+
+    <EditText
+        android:id="@+id/email_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="12"
+        android:gravity="center|start"
+        android:layout_below="@+id/register"
+        android:layout_toRightOf="@+id/email_label"
+        />
+
+    <!-- Password row -->
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/password"
+        android:ems="8"
+        android:gravity="center|start"
+        android:layout_below="@+id/email_label"
+        />
+
+    <EditText
+        android:id="@+id/password_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="9"
+        android:gravity="center|start"
+        android:layout_below="@+id/email_entry"
+        android:layout_toRightOf="@id/password_label"
+        />
+
+    <!-- Re-enter Password row -->
+
+    <TextView
+        android:id="@+id/password2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/password2"
+        android:ems="8"
+        android:gravity="center|start"
+        android:layout_below="@+id/password_label"
+        />
+
+    <EditText
+        android:id="@+id/password2_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="9"
+        android:gravity="center|start"
+        android:layout_below="@id/password_entry"
+        android:layout_toRightOf="@id/password2_label"
+        />
+
+    <!-- First Name row -->
+    <TextView
+        android:id="@+id/firstName_label"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/fName"
+        android:ems="5"
+        android:gravity="center|start"
+        android:layout_below="@+id/password2_label"
+        />
+
+    <EditText
+        android:id="@+id/firstName_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:gravity="center|start"
+        android:layout_below="@id/password2_entry"
+        android:layout_toRightOf="@id/firstName_label"
+        />
+    <!-- Last Name row -->
+
+    <TextView
+        android:id="@+id/lastName_label"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/lName"
+        android:ems="5"
+        android:gravity="center|start"
+        android:layout_below="@id/firstName_label"
+        />
+
+    <EditText
+        android:id="@+id/lastName_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:gravity="center|start"
+        android:layout_below="@id/firstName_entry"
+        android:layout_toRightOf="@id/lastName_label"
+        />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/lastName_entry"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!-- Already registered text -->
+    <TextView
+        android:id="@+id/signIn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_joined"
+        android:layout_below="@+id/button_reg"
+        android:layout_marginTop="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/button_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signIn_button"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/signIn_text"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/infinity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infinity"
+        android:layout_below="@+id/button_signIn"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
+

@@ -18,7 +18,7 @@
     <!-- Email row -->
     <TextView
         android:id="@+id/email_label"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:text="@string/email"
         android:ems="5"
@@ -28,7 +28,7 @@
 
     <EditText
         android:id="@+id/email_entry"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:inputType="textEmailAddress"
         android:ems="12"
@@ -40,7 +40,7 @@
     <!-- Password row -->
     <TextView
         android:id="@+id/password_label"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:text="@string/password"
         android:ems="8"
@@ -50,7 +50,7 @@
 
     <EditText
         android:id="@+id/password_entry"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:inputType="textPassword"
         android:ems="9"
@@ -63,7 +63,7 @@
 
     <TextView
         android:id="@+id/password2_label"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:text="@string/password2"
         android:ems="8"
@@ -73,7 +73,7 @@
 
     <EditText
         android:id="@+id/password2_entry"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:inputType="textPassword"
         android:ems="9"
@@ -85,7 +85,7 @@
     <!-- First Name row -->
     <TextView
         android:id="@+id/firstName_label"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:text="@string/fName"
         android:ems="5"
@@ -95,7 +95,7 @@
 
     <EditText
         android:id="@+id/firstName_entry"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="12"
@@ -107,7 +107,7 @@
 
     <TextView
         android:id="@+id/lastName_label"
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:text="@string/lName"
         android:ems="5"
@@ -117,7 +117,7 @@
 
     <EditText
         android:id="@+id/lastName_entry"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="12"
